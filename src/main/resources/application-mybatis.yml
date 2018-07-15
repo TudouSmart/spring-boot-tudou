@@ -1,0 +1,11 @@
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.tudou.springboot.db.dao
+    configuration:
+        cacheEnabled: true
+        lazyLoadingEnabled: true
+        useColumnLabel: true
+        defaultExecutorType: SIMPLE
+        defaultStatementTimeout: 25000
+        mapUnderscoreToCamelCase: true
+        useGeneratedKeys: true
