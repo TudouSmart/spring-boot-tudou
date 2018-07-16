@@ -1,0 +1,50 @@
+2018-07-16 18:00:55,895:INFO main (StartupInfoLogger.java:50) - Starting SpringBootTudouApplication on hugangdeMacBook-Pro.local with PID 4299 (/Users/hugang/tudou/codes/javaCodes/spring-boot-tudou/target/classes started by hugang in /Users/hugang/tudou/codes/javaCodes/spring-boot-tudou)
+2018-07-16 18:00:55,899:INFO main (SpringApplication.java:663) - The following profiles are active: mybatis,prod
+2018-07-16 18:00:55,977:INFO main (AbstractApplicationContext.java:590) - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@797b0699: startup date [Mon Jul 16 18:00:55 CST 2018]; root of context hierarchy
+2018-07-16 18:00:57,701:INFO main (TomcatWebServer.java:91) - Tomcat initialized with port(s): 8090 (http)
+2018-07-16 18:00:57,716:INFO main (DirectJDKLog.java:180) - Initializing ProtocolHandler ["http-nio-8090"]
+2018-07-16 18:00:57,746:INFO main (DirectJDKLog.java:180) - Starting service [Tomcat]
+2018-07-16 18:00:57,748:INFO main (DirectJDKLog.java:180) - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-16 18:00:57,768:INFO localhost-startStop-1 (DirectJDKLog.java:180) - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hugang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-07-16 18:00:57,909:INFO localhost-startStop-1 (DirectJDKLog.java:180) - Initializing Spring embedded WebApplicationContext
+2018-07-16 18:00:57,909:INFO localhost-startStop-1 (ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1936 ms
+2018-07-16 18:00:58,200:INFO localhost-startStop-1 (ServletRegistrationBean.java:186) - Servlet dispatcherServlet mapped to [/]
+2018-07-16 18:00:58,205:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-16 18:00:58,206:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-16 18:00:58,207:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-16 18:00:58,207:INFO localhost-startStop-1 (AbstractFilterRegistrationBean.java:245) - Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-16 18:00:58,624:INFO main (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-16 18:00:58,806:INFO main (RequestMappingHandlerAdapter.java:574) - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@797b0699: startup date [Mon Jul 16 18:00:55 CST 2018]; root of context hierarchy
+2018-07-16 18:00:58,872:INFO main (AbstractHandlerMethodMapping.java:547) - Mapped "{[/api/book/getById]}" onto public com.tudou.springboot.web.TResponse com.tudou.springboot.web.controller.BookController.getById(java.lang.Integer)
+2018-07-16 18:00:58,875:INFO main (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-16 18:00:58,876:INFO main (AbstractHandlerMethodMapping.java:547) - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-16 18:00:58,902:INFO main (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-16 18:00:58,902:INFO main (AbstractUrlHandlerMapping.java:373) - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-16 18:00:59,156:INFO main (MBeanExporter.java:433) - Registering beans for JMX exposure on startup
+2018-07-16 18:00:59,158:INFO main (MBeanExporter.java:895) - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-07-16 18:00:59,162:INFO main (MBeanExporter.java:668) - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-07-16 18:00:59,173:INFO main (DirectJDKLog.java:180) - Starting ProtocolHandler ["http-nio-8090"]
+2018-07-16 18:00:59,200:INFO main (DirectJDKLog.java:180) - Using a shared selector for servlet write/read
+2018-07-16 18:00:59,214:INFO main (TomcatWebServer.java:206) - Tomcat started on port(s): 8090 (http) with context path ''
+2018-07-16 18:00:59,219:INFO main (StartupInfoLogger.java:59) - Started SpringBootTudouApplication in 3.884 seconds (JVM running for 5.148)
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:20) -                        .::::.										
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:21) -                      .::::::::.									
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:22) -                     :::::::::::									
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:23) -                  ..:::::::::::'									
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:24) -               '::::::::::::'										
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:25) -                 .::::::::::										
+2018-07-16 18:00:59,221:INFO main (SpringBootTudouApplication.java:26) -            '::::::::::::::..										
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:27) -                 ..::::::::::::.									
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:28) -               ``::::::::::::::::									
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:29) -                ::::``:::::::::'        .:::.						
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:30) -               ::::'   ':::::'       .::::::::.						
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:31) -             .::::'      ::::     .:::::::'::::.					
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:32) -            .:::'       :::::  .:::::::::' ':::::.					
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:33) -           .::'        :::::.:::::::::'      ':::::.				
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:34) -          .::'         ::::::::::::::'         ``::::.				
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:35) -      ...:::           ::::::::::::'              ``::.				
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:36) -     ```` ':.          ':::::::::'                  ::::..			
+2018-07-16 18:00:59,222:INFO main (SpringBootTudouApplication.java:37) -                        '.:::::'                    ':'````..		
+2018-07-16 18:01:06,592:INFO Thread-3 (AbstractApplicationContext.java:993) - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@797b0699: startup date [Mon Jul 16 18:00:55 CST 2018]; root of context hierarchy
+2018-07-16 18:01:06,595:INFO Thread-3 (MBeanExporter.java:451) - Unregistering JMX-exposed beans on shutdown
+2018-07-16 18:01:06,596:INFO Thread-3 (MBeanRegistrationSupport.java:183) - Unregistering JMX-exposed beans
